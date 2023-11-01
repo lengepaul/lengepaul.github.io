@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatuble" content="ie-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>http://lengepaul.github.io</title>
+        <style>
+            * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+section {
+    margin: 20px;
+}
+
+p {
+    padding: 25px 10px 0 10px;
+    font-weight: 500;
+
+}
+
+:root {
+    --background-color: rgb(173, 145, 108);  
+ 
+}
+
+.container-1 {
+    margin: 0 0 20px 0;
+    background-color: var(--background-color);  
+    border: 1px solid black;
+}
+
+.container-2 {
+    margin: 0 0 20px 0;
+    background-color: var(--background-color);
+    border: 1px solid black;  
+}
+
+.container-3 {
+    margin: 0 0 20px 0;
+    background-color: var(--background-color);
+    border: 1px solid black; 
+}
+
+.heading-container-1 {
+    background-color: darkcyan;
+    border: 1px solid black;  
+    font-weight: bold;
+    width: 20%; 
+    text-align: center;
+    float: right;
+}
+
+.heading-container-2 {
+    background-color: rgb(218, 138, 18);
+    border: 1px solid black;   
+    font-weight: bold;
+    width: 20%; 
+    text-align: center;
+    float: right;
+}
+
+.heading-container-3 {
+    background-color:rgb(72, 102, 21);
+    border: 1px solid black;  
+    font-weight: bold;
+    width: 20%; 
+    text-align: center;
+    float: right;
+}
+
+@media (min-width: 992px) {
+    .container-1, .container-2, .container-3 {
+        float: right;
+    }
+
+    .container-1 {
+        width: 32.6%;
+        float: left;
+        margin-right: 13px;
+    }
+
+    .container-2 {
+        width: 32.6%;
+        float: left;
+        margin-right: 5px;
+
+    }
+
+    .container-3 {
+        width: 32.6%;
+        float: right
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container-1, .container-2, .container-3 {
+        float: right;
+    }
+
+    .container-1 {
+        width: 48.6%;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .container-2 {
+        width: 48.6%;
+    }
+
+    .container-3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-1, .container-2, .container-3 {
+        float: left;
+    }
+
+    .container-1 {
+        width: 100%;
+    }
+
+    .container-2 {
+        width: 100%;
+    }
+    
+      .container-3 {
+        width: 100%;
+    }
+}
+
+  
+
+ 
+        </style>
+    </head>
+
+    <body>
+        <h1>Our Menu</h1>
+
+        <section>
+            <div class="container-1">
+                <div class="heading-container-1">Chicken</div>
+                <p class="paragraph-container-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui nemo officia. Optio quidem illo accusamus voluptatum sapiente est nisi autem enim dicta, reiciendis maxime. Error eos quisquam pariatur nam!
+                </p>
+            </div>
+
+            <div class="container-2">
+                <div class="heading-container-2">Beef</div>
+                <p class="paragraph-container-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui nemo officia. Optio quidem illo accusamus voluptatum sapiente est nisi autem enim dicta, reiciendis maxime. Error eos quisquam pariatur nam!
+                </p>
+            </div>
+
+            <div class="container-3">
+                <div class="heading-container-3">Sushi</div>
+                <p class="paragraph-container-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui nemo officia. Optio quidem illo accusamus voluptatum sapiente est nisi autem enim dicta, reiciendis maxime. Error eos quisquam pariatur nam!
+                </p>
+            </div>
+        </section>
+
+    </body>
+
+</html>
